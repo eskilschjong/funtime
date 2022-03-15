@@ -6,7 +6,6 @@ function submit(){
 
     let error = false;
 
-
     if (bestilling.fnavn === "") {
         document.getElementById("errorFnavn").innerHTML = "Du må skrive inn en melding dust";
         error = true;
